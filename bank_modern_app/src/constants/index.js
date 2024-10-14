@@ -34,6 +34,17 @@ export const navLinks = [
   },
 ];
 
+export const logs = [
+  {
+    id: "Login",
+    title: "Login",
+  },
+  {
+    id: "Sign Up",
+    title: "Sign Up",
+  },
+]
+
 export const features = [
   {
     id: "feature-1",
