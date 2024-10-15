@@ -138,3 +138,29 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00c2c2;
+  border-radius: 5px;
+  border: 2px solid #1a1a1a;
+  transition: background-color 0.3s ease, width 0.3s ease, box-shadow 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00f5f5;
+  box-shadow: 0px 0px 9px rgba(0, 194, 194, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+}
